@@ -1,0 +1,25 @@
+.square{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blueviolet;
+    background-color: darksalmon;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.hidden > span{
+    opacity: 0;
+}
+
+.right-answer{
+    background-color: seagreen;
+}
+
+.wrong-answer{
+    background-color: rgb(151, 49, 49);
+}
