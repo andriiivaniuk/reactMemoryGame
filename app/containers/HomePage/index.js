@@ -1,18 +1,16 @@
-/*
- * HomePage
- *
- * This is the first thing users see of our App, at the '/' route
- *
- */
+import React, { Component } from 'react';
 
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+class App extends React.Component {
 
-export default function HomePage() {
-  return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
-  );
+
+
+  render(){
+    return (
+      <div className='App'>
+        
+      </div>
+    );
+  }
 }
+
+export default App;
